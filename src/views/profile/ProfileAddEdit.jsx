@@ -33,7 +33,7 @@ const ProfileAddEdit = () => {
     }, [state.me]);
 
     const saveProfile = () => {
-        dispatch(Profile.update(profile));
+        dispatch(Profile.updateProfile(profile));
     }
 
     return (

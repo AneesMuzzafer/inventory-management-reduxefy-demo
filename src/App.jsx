@@ -10,7 +10,7 @@
 
 import React from 'react'
 import { RouterProvider } from 'react-router-dom';
-import { authRouter } from './Navigation/router.jsx';
+import { authRouter } from './navigation/router.jsx';
 
 function App() {
     return <RouterProvider router={authRouter} />;

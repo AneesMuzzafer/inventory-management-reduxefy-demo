@@ -15,7 +15,7 @@ If you want to learn more about the packages that power this app, be sure to che
 
 ### `reduxefy-toolkit`
 
-Building on the power of `reduxefy`, `reduxefy-toolkit` provides a suite of utilities and helpers that make it even easier to work with Redux. With `reduxefy-toolkit`, you can quickly generate reducers, use immer.js to handle immutable state, and much more. Get started with `reduxefy-toolkit` here: [https://github.com/your-username/reduxefy-toolkit](https://github.com/your-username/reduxefy-toolkit)
+Building on the power of `reduxefy`, `reduxefy-toolkit` provides a suite of utilities and helpers that make it even easier to work with Redux. With `reduxefy-toolkit`, you can quickly generate reducers, use immer.js to handle immutable state, and much more. Get started with `reduxefy-toolkit` here: [https://github.com/AneesMuzzafer/reduxefy-toolkit](https://github.com/AneesMuzzafer/reduxefy-toolkit)
 
 ### `react-reduxefy`
 

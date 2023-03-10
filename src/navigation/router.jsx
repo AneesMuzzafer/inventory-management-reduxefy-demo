@@ -24,8 +24,6 @@ import UserAddEdit from "../views/user/UserAddEdit";
 import UserList from "../views/user/UserList";
 import { AuthenticatedRoute, UnauthenticatedRoute } from "./Auth";
 
-// const basepath =
-
 export const authRouter = createBrowserRouter(
     createRoutesFromElements(
         <Route>
@@ -55,5 +53,5 @@ export const authRouter = createBrowserRouter(
             </Route>
         </Route>
     ),
-    {basename: "/inventory-management-reduxefy-demo"}
+    { basename: "/inventory-management-reduxefy-demo" }
 );

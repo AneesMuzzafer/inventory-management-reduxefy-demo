@@ -24,6 +24,8 @@ import UserAddEdit from "../views/user/UserAddEdit";
 import UserList from "../views/user/UserList";
 import { AuthenticatedRoute, UnauthenticatedRoute } from "./Auth";
 
+// const basepath =
+
 export const authRouter = createBrowserRouter(
     createRoutesFromElements(
         <Route>
@@ -32,25 +34,26 @@ export const authRouter = createBrowserRouter(
                     <Route index element={<Dashboard />} />
                     <Route path="items" element={<Item />} >
                         <Route index element={<ItemList />} />
-                        <Route path="/items/create" element={<ItemAddEdit />} />
-                        <Route path="/items/edit/:uuid" element={<ItemAddEdit />} />
+                        <Route path="create" element={<ItemAddEdit />} />
+                        <Route path="edit/:uuid" element={<ItemAddEdit />} />
                     </Route>
                     <Route path="categories" element={<Category />} >
                         <Route index element={<CategoryList />} />
-                        <Route path="/categories/create" element={<CategoryAddEdit />} />
-                        <Route path="/categories/edit/:uuid" element={<CategoryAddEdit />} />
+                        <Route path="create" element={<CategoryAddEdit />} />
+                        <Route path="edit/:uuid" element={<CategoryAddEdit />} />
                     </Route>
                     <Route path="users" element={<User />} >
                         <Route index element={<UserList />} />
-                        <Route path="/users/create" element={<UserAddEdit />} />
-                        <Route path="/users/edit/:uuid" element={<UserAddEdit />} />
+                        <Route path="create" element={<UserAddEdit />} />
+                        <Route path="edit/:uuid" element={<UserAddEdit />} />
                     </Route>
-                    <Route path="/profile" element={<ProfileAddEdit />} />
+                    <Route path="profile" element={<ProfileAddEdit />} />
                 </Route>
             </Route>
             <Route element={<UnauthenticatedRoute />}>
                 <Route path="/sign-in" element={<SignIn />} />
             </Route>
         </Route>
-    )
+    ),
+    {basename: "/inventory-management-reduxefy-demo"}
 );

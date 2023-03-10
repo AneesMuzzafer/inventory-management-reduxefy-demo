@@ -4,6 +4,11 @@ This is an example app for demonstrating the usage of the `reduxefy-toolkit` and
 
 You can view a live demo of the app at: [https://aneesmuzzafer.github.io/inventory-management-reduxefy-demo](https://aneesmuzzafer.github.io/inventory-management-reduxefy-demo)
 
+## API
+
+This app uses an API server created by my dear friend and mentor, **Afaan Bilal**. You can view the server repository here: [https://github.com/AfaanBilal/iron-guard-server](https://github.com/AfaanBilal/iron-guard-server)
+
+Also check out Afaan's Github profile and other projects here: [https://github.com/AfaanBilal](https://github.com/AfaanBilal)
 
 ## Check Out These Packages!
 
@@ -15,7 +20,7 @@ If you want to learn more about the packages that power this app, be sure to che
 
 ### `reduxefy-toolkit`
 
-Building on the power of `reduxefy`, `reduxefy-toolkit` provides a suite of utilities and helpers that make it even easier to work with Redux. With `reduxefy-toolkit`, you can quickly generate reducers, use immer.js to handle immutable state, and much more. Get started with `reduxefy-toolkit` here: [https://github.com/AneesMuzzafer/reduxefy-toolkit](https://github.com/AneesMuzzafer/reduxefy-toolkit)
+Building on the power of `reduxefy`, `reduxefy-toolkit` provides a suite of utilities and helpers that make it even easier to work with Redux. With `reduxefy-toolkit`, you can quickly generate reducers, use immer.js to handle immutable state, and much more. Get started with `reduxefy-toolkit` here: [https://github.com/your-username/reduxefy-toolkit](https://github.com/your-username/reduxefy-toolkit)
 
 ### `react-reduxefy`
 

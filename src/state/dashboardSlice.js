@@ -41,5 +41,5 @@ const dashboardSlice = createSlice({
     }
 })
 
-export const {  } = dashboardSlice.actions;
+export const {} = dashboardSlice.actions;
 export default dashboardSlice.reducer;
